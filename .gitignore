@@ -1,0 +1,34 @@
+# Python バイトコード
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 環境変数（機密情報）
+.env
+
+# 仮想環境
+venv/
+*.venv
+
+# Pipキャッシュ
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE / エディタ関連
+.vscode/
+.idea/
+*.sublime-workspace
+
+# ログファイル
+logs/
+*.log
+
+# OS関連
+.DS_Store
+Thumbs.db
+
+# ngrok関連
+*.ngrok.log
+
+# Pytestキャッシュ
+.pytest_cache/
